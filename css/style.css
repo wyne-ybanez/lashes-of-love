@@ -15,6 +15,7 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -58,7 +59,7 @@ p, ul, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #ff3399;
+  color: pink	;
 }
 
 a:hover, a:focus, a:active {
@@ -245,12 +246,12 @@ a:hover, a:focus, a:active {
 .probootstrap-navbar .dropdown > .dropdown-menu > li a:hover {
   border-top: none;
   background: #ffffff;
-  color: #85C8DD;
+  color: pink;
 }
 
 .probootstrap-navbar .dropdown > .dropdown-menu > li.open > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:hover > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:focus > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:active > a {
   border-top: none;
-  color: #85C8DD;
+  color: pink;
   background: #ffffff;
 }
 
@@ -274,7 +275,7 @@ a:hover, a:focus, a:active {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #85C8DD;
+  background: pink;
   border-radius: 0;
   -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
@@ -302,7 +303,7 @@ a:hover, a:focus, a:active {
   padding-bottom: 0 !important;
   font-size: 30px;
   font-family: "Pinyon Script", serif;
-  color: #ff3399;
+  color: pink;
   top: 40px;
   margin-top: 10px;
   position: relative;
@@ -388,13 +389,13 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav > li > .dropdown-menu:before {
-  border: 1px solid #85C8DD;
+  border: 1px solid pink;
   content: "";
   position: absolute;
   top: -20px;
   left: 40px;
   border-color: rgba(133, 200, 221, 0);
-  border-bottom-color: #85C8DD;
+  border-bottom-color: pink;
   border-width: 10px;
   margin-left: -10px;
 }
@@ -410,7 +411,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav.active > a {
-  color: #FFA33E !important;
+  color:pink !important;
 }
 
 .probootstrap-navbar .dropdown-submenu {
@@ -497,12 +498,12 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-  color: #ff3399 !important;
+  color: pink !important;
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-    color: #ff3399 !important;
+    color: pink !important;
   }
 }
 
@@ -602,7 +603,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-hero.probootstrap-hero-colored {
-  background: #ff3399;
+  background: pink;
 }
 
 .probootstrap-hero.probootstrap-hero-colored h1 {
@@ -644,32 +645,32 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #ff3399;
+  background: pink;
   color: #fff;
   border: 2px solid #fff;
 }
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 1px solid #ff3399;
+  border: 1px solid pink;
 }
 
 .btn.btn-ghost {
   background: transparent;
-  border: 1px solid #ff3399;
-  color: #ff3399;
+  border: 1px solid pink;
+  color: pink;
 }
 
 .btn.btn-ghost:hover {
-  background: #ff3399;
+  background: pink;
   color: #ffffff;
 }
 
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
   outline: none;
   background: transparent;
-  color: #ff3399;
-  border: 1px solid #ff3399;
+  color: pink;
+  border: 1px solid pink;
 }
 
 section[data-section="menu"] {
@@ -865,7 +866,7 @@ section[data-section="menu"] {
 }
 
 .probootstrap-block-image .text h3 a:hover {
-  color: #ff3399;
+  color: pink;
 }
 
 .probootstrap-block-image .text p:last-child {
@@ -891,7 +892,7 @@ section[data-section="menu"] {
   display: block;
   width: 0;
   height: 2px;
-  background: #ff3399;
+  background: pink;
   position: absolute;
   bottom: 0;
   z-index: 2;
@@ -916,7 +917,7 @@ section[data-section="menu"] {
 
 .probootstrap-custom-link:hover:before {
   width: 100%;
-  background: #ff3399;
+  background: pink;
 }
 
 .image-wrap {
@@ -993,7 +994,7 @@ section[data-section="menu"] {
   top: 15px;
   right: 0;
   font-size: 20px;
-  color: #ff3399;
+  color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -1041,6 +1042,7 @@ section[data-section="menu"] {
 
 .probootstrap-cell .image, .probootstrap-cell .text {
   width: 50%;
+  border-block: solid .5px;
 }
 
 @media screen and (max-width: 992px) {
@@ -1079,7 +1081,7 @@ section[data-section="menu"] {
 
 .probootstrap-cell .text p.price {
   font-size: 20px;
-  color: rgb(255, 51, 153);
+  color: #000;
 }
 
 .probootstrap-cell .text:before {
@@ -1358,7 +1360,7 @@ section[data-section="menu"] {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #ff3399;
+  border-color: pink;
 }
 
 .probootstrap-form .form-group .form-field {
@@ -1761,7 +1763,7 @@ section[data-section="menu"] {
   display: block;
   text-transform: none;
   letter-spacing: normal;
-  color: #ff3399;
+  color: pink;
   font-size: 14px;
 }
 
@@ -1771,7 +1773,7 @@ section[data-section="menu"] {
 
 .probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
   font-size: 50px;
-  color: #ff3399;
+  color: pink;
   font-weight: 100;
   display: block;
   margin-bottom: 10px;
@@ -1861,7 +1863,7 @@ section[data-section="menu"] {
 
 .probootstrap-heading .primary-heading {
   font-family: "Pinyon Script", serif;
-  color: #ff3399;
+  color: pink;
   margin: 0;
   padding: 0;
   font-size: 80px;
@@ -1938,7 +1940,7 @@ section[data-section="menu"] {
 
 .flexslider .slides > li.overlay:before {
   content: "";
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   left: 0;
@@ -2140,14 +2142,14 @@ section[data-section="menu"] {
 
 .owl-theme .owl-controls .owl-nav [class*="owl-"] i {
   font-size: 24px;
-  background: #ff3399 !important;
+  background: pink !important;
   padding: 12px;
   -webkit-transition: .5s all;
   transition: .5s all;
 }
 
 .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover i, .owl-theme .owl-controls .owl-nav [class*="owl-"]:focus i {
-  background: #ff3399 !important;
+  background: pink !important;
 }
 
 .owl-theme .owl-dots {
