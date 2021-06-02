@@ -2,6 +2,7 @@ THEME USED: Resto - Free Bootstrap Theme
 AUTHOR: uiCookies.com & Wyne Ybanez
 THEM AUTHOR URI: https://uiCookies.com/
 
+Live Site: https://wyne-ybanez.github.io/lashes-of-love/
 
 CREDITS:
 
