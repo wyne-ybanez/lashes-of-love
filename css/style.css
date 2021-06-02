@@ -301,14 +301,14 @@ a:hover, a:focus, a:active {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   font-size: 30px;
-  text-transform: uppercase;
-  background: url(../img/logo.png) no-repeat left top;
+  font-family: "Pinyon Script", serif;
+  color: #ff3399;
   top: 40px;
+  margin-top: 10px;
   position: relative;
-  width: 117px;
   height: 40px;
-  text-indent: -999999px;
   -webkit-transition: .2s all;
+  font-style: italic;
   transition: .2s all;
 }
 
@@ -500,12 +500,12 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-  color: #FFA33E !important;
+  color: #ff3399 !important;
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-    color: #FFA33E !important;
+    color: #ff3399 !important;
   }
 }
 
@@ -639,36 +639,40 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
-  border: 1px solid #FFA33E;
-  background: #FFA33E;
-  color: #ffffff;
+  border: 2px solid #000;
+  font-weight: 500;
+  background: #fff;
+  color: #000;
+  transition: ease 0.5s;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #ffa848;
+  background: #ff3399;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 1px solid #FFA33E;
+  border: 1px solid #ff3399;
 }
 
 .btn.btn-ghost {
   background: transparent;
-  border: 1px solid #FFA33E;
-  color: #FFA33E;
+  border: 1px solid #ff3399;
+  color: #ff3399;
 }
 
 .btn.btn-ghost:hover {
-  background: #FFA33E;
+  background: #ff3399;
   color: #ffffff;
 }
 
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
   outline: none;
   background: transparent;
-  color: #FFA33E;
-  border: 1px solid #FFA33E;
+  color: #ff3399;
+  border: 1px solid #ff3399;
 }
 
 section[data-section="menu"] {
@@ -864,7 +868,7 @@ section[data-section="menu"] {
 }
 
 .probootstrap-block-image .text h3 a:hover {
-  color: #FFA33E;
+  color: #ff3399;
 }
 
 .probootstrap-block-image .text p:last-child {
@@ -890,7 +894,7 @@ section[data-section="menu"] {
   display: block;
   width: 0;
   height: 2px;
-  background: #FFA33E;
+  background: #ff3399;
   position: absolute;
   bottom: 0;
   z-index: 2;
@@ -915,7 +919,7 @@ section[data-section="menu"] {
 
 .probootstrap-custom-link:hover:before {
   width: 100%;
-  background: #FFA33E;
+  background: #ff3399;
 }
 
 .image-wrap {
@@ -992,7 +996,7 @@ section[data-section="menu"] {
   top: 15px;
   right: 0;
   font-size: 20px;
-  color: #FFA33E;
+  color: #ff3399;
 }
 
 @media screen and (max-width: 768px) {
@@ -1078,7 +1082,7 @@ section[data-section="menu"] {
 
 .probootstrap-cell .text p.price {
   font-size: 20px;
-  color: #FFA33E;
+  color: rgb(255, 51, 153);
 }
 
 .probootstrap-cell .text:before {
@@ -1357,7 +1361,7 @@ section[data-section="menu"] {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #FFA33E;
+  border-color: #ff3399;
 }
 
 .probootstrap-form .form-group .form-field {
@@ -1860,7 +1864,7 @@ section[data-section="menu"] {
 
 .probootstrap-heading .primary-heading {
   font-family: "Pinyon Script", serif;
-  color: #FFA33E;
+  color: #ff3399;
   margin: 0;
   padding: 0;
   font-size: 80px;

@@ -1,6 +1,6 @@
-THEME: Resto - Free Bootstrap Theme
-AUTHOR: uiCookies.com
-AUTHOR URI: https://uiCookies.com/
+THEME USED: Resto - Free Bootstrap Theme
+AUTHOR: uiCookies.com & Wyne Ybanez
+THEM AUTHOR URI: https://uiCookies.com/
 
 
 CREDITS:
