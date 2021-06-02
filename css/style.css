@@ -1,10 +1,4 @@
-/*!==============================
- * Theme Name: Stack
- * Theme URL: https://probootstrap.com/resto-free-restaurant-responsive-bootstrap-website-template
- * Author: ProBootstrap.com
- * Author URL: https://probootstrap.com
- * License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
- */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
@@ -302,14 +296,13 @@ a:hover, a:focus, a:active {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   font-size: 30px;
-  font-family: "Pinyon Script", serif;
+  font-family: 'Dancing Script', cursive;
   color: pink;
   top: 40px;
   margin-top: 10px;
   position: relative;
   height: 40px;
   -webkit-transition: .2s all;
-  font-style: italic;
   transition: .2s all;
 }
 
@@ -1863,7 +1856,7 @@ section[data-section="menu"] {
 
 .probootstrap-heading .primary-heading {
   font-family: "Pinyon Script", serif;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 1px 1px 1px #000000;
   color: hotpink;
   margin: 0;
   padding: 0;
@@ -1884,7 +1877,7 @@ section[data-section="menu"] {
   letter-spacing: .05em;
   font-size: 50px;
   position: relative;
-  top: -50px;
+  top: -45px;
   font-weight: 700;
   line-height: 40px;
 }
