@@ -58,11 +58,11 @@ p, ul, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #FFA33E;
+  color: #ff3399;
 }
 
 a:hover, a:focus, a:active {
-  color: #ff9725;
+  color: #000;
   text-decoration: none;
 }
 
@@ -328,10 +328,7 @@ a:hover, a:focus, a:active {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .probootstrap-navbar .navbar-brand {
     position: relative;
-    width: 117px;
     height: 40px;
-    background: url(../img/logo@2x.png) no-repeat left 100%;
-    background-size: cover;
   }
 }
 
@@ -605,7 +602,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-hero.probootstrap-hero-colored {
-  background: #FFA33E;
+  background: #ff3399;
 }
 
 .probootstrap-hero.probootstrap-hero-colored h1 {
@@ -1524,8 +1521,8 @@ section[data-section="menu"] {
 }
 
 .modal .probootstrap-modal-flex .btn-connect-twitter {
-  background: #1da1f2;
-  border-color: #1da1f2;
+  background: #ff3399;
+  border-color: #ff3399;
   color: #ffffff;
 }
 
@@ -1764,7 +1761,7 @@ section[data-section="menu"] {
   display: block;
   text-transform: none;
   letter-spacing: normal;
-  color: #FFA33E;
+  color: #ff3399;
   font-size: 14px;
 }
 
@@ -1774,7 +1771,7 @@ section[data-section="menu"] {
 
 .probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
   font-size: 50px;
-  color: #FFA33E;
+  color: #ff3399;
   font-weight: 100;
   display: block;
   margin-bottom: 10px;
@@ -2143,14 +2140,14 @@ section[data-section="menu"] {
 
 .owl-theme .owl-controls .owl-nav [class*="owl-"] i {
   font-size: 24px;
-  background: #ffa33e !important;
+  background: #ff3399 !important;
   padding: 12px;
   -webkit-transition: .5s all;
   transition: .5s all;
 }
 
 .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover i, .owl-theme .owl-controls .owl-nav [class*="owl-"]:focus i {
-  background: #ffa33e !important;
+  background: #ff3399 !important;
 }
 
 .owl-theme .owl-dots {
